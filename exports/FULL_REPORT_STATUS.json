@@ -1,0 +1,20 @@
+{
+  "selected_source": "RGIOEXOEIOD2012_SO_1 1.rdf",
+  "source_sha256": "50444cbd5947261ac3c9ba37a83c21bad59e07151beb6bb432900f06e957514b",
+  "template": "RGIOEXOEIOD2012_SO_1_FULL_BIP.rtf",
+  "template_sha256": "4550e2c100588909d395c6d2c62acf859391165c07d5c21ab7a76146cf1e2bb3",
+  "source_fields_and_text_objects_migrated": 80,
+  "frames": 8,
+  "format_triggers_implemented": 27,
+  "callback_owners_verified": 27,
+  "unit_tests_passed": 79,
+  "local_binding_and_render_cases_passed": 10,
+  "actual_preview_pages": 1,
+  "oracle_xdo_executed": false,
+  "actual_qr_available": false,
+  "actual_missing_xml_field": "IMAGE",
+  "required_runtime_parameter": "P_ORG_ID original global value; no per-invoice ORG_ID fallback",
+  "source_parameter_default_P_FLAG": "1",
+  "pixel_equivalence_certified": false,
+  "production_certified": false
+}

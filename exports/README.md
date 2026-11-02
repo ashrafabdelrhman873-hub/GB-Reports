@@ -1,9 +1,17 @@
-# BI Publisher RTF export
+# GB-Reports exports
 
-Download `RGIOEXOEIOD2012_SO_1_BIP.rtf` using GitHub’s Download raw file button.
+## Current template — source RGIOEXOEIOD2012_SO_1 1.rdf
 
-This review template reads the uploaded Oracle Reports XML directly. Actual XML binding, financial consistency, and a local one-page preview were checked; Oracle XDO execution and every original format effect remain unverified.
+- [BI Publisher RTF](RGIOEXOEIOD2012_SO_1_FULL_BIP.rtf)
+- [Actual XML local PDF preview](RGIOEXOEIOD2012_SO_1_FULL_PREVIEW.pdf)
+- [Source, tests and preview package](RGIOEXOEIOD2012_SO_1_FULL_BIP_package.zip)
+- [Arabic usage, parameters and validation notes](FULL_REPORT_README.md)
+- [Delivery status](FULL_REPORT_STATUS.json)
 
-`P_ORG_ID` is an optional layout parameter. If omitted, the template uses the invoice `ORG_ID` as a documented fallback. `DATE_CENTURY` defaults to `20` for DD-MON-YY header dates.
+All27 recovered sourceFormatTriggers,80field/textobjects and8frames are migrated.79unit tests and10localintegration/rendercases passed. OracleXDO execution remains untested. The actualXMLdoesnotincludeIMAGE, so realQRrequiresupdatedsourcedata; the packagedQRfixtureisclearlysynthetic.
 
-Do not re-save the template using LibreOffice, because it can remove the Help Text that stores BI Publisher instructions.
+Pass the original global P_ORG_ID parameter; it is not inferred from individual invoice ORG_ID values. Source P_FLAG default is1. Read the full notes before production use.
+
+## Previous template
+
+[RGIOEXOEIOD2012_SO_1_BIP.rtf](RGIOEXOEIOD2012_SO_1_BIP.rtf) is the older export based on the `_test` source. Use the FULL version above for the newly uploaded report.
