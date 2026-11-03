@@ -1,0 +1,15 @@
+{
+  "source_sha256": "e3c3b695055086e0fb79e3c1d9ac896bd0c81282f61e91f163d5c77a28e954ef",
+  "result_sha256": "a27a4f65c0832b58fbcca3a5fde69540544c9448bb332b28b18948bdc67955da",
+  "fields_preserved_exactly": 89,
+  "field_bytes_changed": 0,
+  "bookmarks_preserved": true,
+  "rtf_group_structure_valid": true,
+  "parent_layout": "one borderless row, existing 3x2 totals table left, QR field right and vertically centered",
+  "reader_confirmed_structure": true,
+  "preview_pages": 1,
+  "qr_beside_table_geometry_verified": true,
+  "qr_field_code_changed": false,
+  "existing_qr_instruction_is_truncated": true,
+  "oracle_xdo_executed": false
+}
